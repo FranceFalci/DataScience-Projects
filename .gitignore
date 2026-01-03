@@ -1,5 +1,21 @@
 *.venv/
 *venv/
+/german_credit_risk.csv
+datasets/german_credit_risk.csv
 
+*.venv/
+*venv/
+venv/
+.venv/
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+.pytest_cache
 
+# MLflow
+mlflow.db
+*.mlflow.db
+mlruns/
+.mlflow/
 
