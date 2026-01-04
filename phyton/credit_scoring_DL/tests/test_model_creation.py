@@ -126,3 +126,6 @@ def test_forward_pass(model_config_fixture):
     expected_shape = (batch_size, 1)
     assert output.shape == expected_shape, f"La forma del tensor de salida es incorrecta. Esperado: {expected_shape}, Obtenido: {output.shape}"
     log.info(f"✔ ¡Éxito! El forward pass se completó y la forma de salida es correcta: {output.shape}.")
+
+
+#probando probando
