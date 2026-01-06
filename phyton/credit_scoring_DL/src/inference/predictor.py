@@ -12,7 +12,7 @@ from typing import Dict, Any
 
 import sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from training.model import CreditScoringModel
+from train.model import CreditScoringModel
 from server.schemas import CreditRiskInput
 
 log.basicConfig(level=log.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
@@ -100,7 +100,7 @@ BEST_MODEL_CONFIG = {
 
 # Paths relativos al root del proyecto `python/credit_scoring`
 MODEL_PATH = Path("models/genia_services_mlp_credit_scoring_model_v1.3.0_20250824.pt")
-PREPROCESSOR_PATH = Path("models/german_credit_risk_preprocessor.joblib")
+PREPROCESSOR_PATH = Path("models/german_credit_risk_preprocessor.jobli+b")
 
 # Instancia única (Singleton) del predictor para ser usada por la API.
 # Esto asegura que el modelo se carga una sola vez al iniciar el servidor.
