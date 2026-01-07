@@ -2,7 +2,10 @@
 *venv/
 /german_credit_risk.csv
 datasets/german_credit_risk.csv
-
+datasets/Chicken-fecal-images.zip
+datasets/Chicken-fecal-images/
+datasets/ingeniia_services_xrays_evaluation_img_v1.0.0_training_20251121
+datasets/data.rar
 *.venv/
 *venv/
 venv/
